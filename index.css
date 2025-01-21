@@ -1,0 +1,12 @@
+button {
+  background-color: rgba(0, 0, 0, 0.425);
+  color: bisque;
+  padding: 14px 20px;
+  margin: 8px 0px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  font-size: 17px;
+}
+.time {
+}

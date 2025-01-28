@@ -118,7 +118,7 @@ console.log(numstr)
 
 let decimalnum = 10.399967750
 let decimal = decimalnum.toFixed(2)
-console.log(number(decimal) + 30)
+// console.log(number(decimal) + 30)
 
 let myarray = ['camry', 'blue', 4, 2024, 2000]                                                                 
 console.log(myarray)

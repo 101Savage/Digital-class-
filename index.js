@@ -162,3 +162,24 @@ let filterarray = numarray.filter(function (val)
     }
 })
 console.log(filterarray)
+
+console.log(new Date())
+
+let ceiler = Math.ceil(4.1)
+let floor = Math.floor(4.9)
+let round1 = Math.round(4.5)
+let round2 =Math.round(4.4)
+console.log('ceiler=>', ceiler, 'floor=>', floor, 'rounder=>', round1, 'second rounder=>', round2)
+console.log(Math.PI)
+
+console.log(3 ** 2)
+
+console.log(Math.random())
+console.log(Math.floor(Math.random() * (11 - 5)) + 5)
+
+
+let random = Array(10).fill(0)
+console.log(random)
+
+ randomnum = random.map((val) => Math.floor(Math.random() * (11 - 5)) + 5)
+console.log(randomnum)

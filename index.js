@@ -129,7 +129,10 @@ myarray.push('red')
 myarray.push(2020)
 myarray.push(22000)
 console.log(myarray)
-
-
-
-
+console.log(myarray.length)
+let newarray = myarray.splice(1, 3)
+console.log(newarray)
+console.log(myarray.toString())
+console.log(myarray.sort())
+myarray [0] = "benz";
+console.log(myarray)

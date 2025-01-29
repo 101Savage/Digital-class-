@@ -136,3 +136,29 @@ console.log(myarray.toString())
 console.log(myarray.sort())
 myarray [0] = "benz";
 console.log(myarray)
+
+// function() {
+//     console.log('My name  is peter')
+// } 
+
+let numarray = [10, 10, 27, 69, 40]
+let anarray = []
+console.log(numarray)
+numarray.forEach((val)=>{
+anarray.push   ( val )
+})
+
+console.log(anarray)
+
+let maparray = numarray.map(function (val) {
+    return val + 20
+})
+console.log(maparray)
+
+let filterarray = numarray.filter(function (val)
+{
+    if (val < 40) {
+        return val * 10
+    }
+})
+console.log(filterarray)

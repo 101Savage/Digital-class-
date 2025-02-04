@@ -183,3 +183,60 @@ console.log(random)
 
  randomnum = random.map((val) => Math.floor(Math.random() * (11 - 5)) + 5)
 console.log(randomnum)
+
+// if(what you are checking){
+//     block of code to execute
+// }
+
+let num7 = 17 + 50
+
+// if(num7 > 20){
+//     console.log('it is greater')
+//     console.log('can you see that')
+// } else { 
+//     console.log('it is less')
+//     console.log('can you see that again')
+// }
+
+// if(num7 == 10) {
+//     console.log('it is equal')
+// } else if (num7 > 10) {
+//     console.log('it is greater')
+// } else if (num7 >= 10) {
+//     console.log('it is greater or equal' )
+// } else if (num7 < 10) {
+//     console.log('it is less than')
+// } else if (num7 <= 10){
+//     console.log('it is less than or equal to')
+// }
+
+switch (new Date().getDay()) {
+    case 0:
+        day = "sunday";
+        break;
+    case 1:
+        day = "monday";
+        break;
+    case 2:
+        day = "tuesday";
+        break;
+    case 3:
+        day = "wednesday";
+        break;
+    case 4:
+        day = "thursday";
+        break;
+    case 5:
+        day = "friday";
+        break;
+    case 6:
+        day = "sartuday";
+        break;                        
+}
+
+
+console.log('ronaldo')
+
+for(let i = 0; i < 1000000; i++){
+    console.log('ronaldo')
+}
